@@ -12,3 +12,9 @@
 	- 'git diff --staged': runs git diff between the staging area and last known state
 - 'git diff HEAD~<NUMBER>' : compates HEAD with commit <NUMBER> ago (Realative
 - 'git diff <HASH>' : compares HEAD with the commit in <HASH>
+
+- 'git restore --soure <HASH OR HEAD~> <FILE>': restore file to <HASH OR ~HEAD~>
+	- 'git checkout <HASH OR HEAD~> <FILE>': restores file to <HASH OR HEAD~>
+		-'git checkout <HASH OR HEAD~>': if you forget the file, you end up in detached head
+		-'git checkout main' : go back to main
+		-'git swich main'L go nack to main
