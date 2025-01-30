@@ -83,4 +83,9 @@
 - Adding a collaborator
 - Branching workflow
 - Git Flow: a special type of branching workflow
-
+- Forking: is commonly used in open source projects
+	- Fork: copy the original remote repo into your account
+	- `origin` : is your own remote copy
+	- `upstream` : is the original copy
+	- Follow branching workflowo
+ 
