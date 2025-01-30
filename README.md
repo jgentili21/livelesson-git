@@ -71,5 +71,6 @@
 
 ## Collaborators
 
+- Second person to push, needs to sync the history
 - Add collaborators in repository settings
 - collaborators will then `git clone <URL>` to get repo on their computer 	
