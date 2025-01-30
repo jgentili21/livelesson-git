@@ -1,4 +1,4 @@
-# Git notes
+# Git notes for local work
 
 'git init' : initialize current folder as a git repositoy
 'git clone <URL>' : brings the gir repo from <URL> to current folder
@@ -21,7 +21,7 @@
 		-'git checkout main' : go back to main
 		-'git swich main'L go nack to main
 
-#remotes
+# working with remotes
 - 'git remote add <NAME> <URL>' : adds the <URL> as a remote with the name <NAME>
 	-<NAME> is by convention called 'origin'
 - 'git remote rm <NAME>': removes the remote called <NAME>
