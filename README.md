@@ -19,6 +19,7 @@
 		-'git checkout main' : go back to main
 		-'git swich main'L go nack to main
 
+#remotes
 - 'git remote add <NAME> <URL>' : adds the <URL> as a remote with the name <NAME>
 	-<NAME> is by convention called 'origin'
 - 'git remote rm <NAME>': removes the remote called <NAME>
