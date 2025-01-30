@@ -2,12 +2,12 @@
 
 ## Working with git locally
 
-`git init` : initialize current folder as a git repositoy
-`git clone <URL>` : brings the gir repo from <URL> to current folder
-`git status` :tells us that we need to know about our repo
+- `git init` : initialize current folder as a git repositoy
+- `git clone <URL>` : brings the gir repo from <URL> to current folder
+- `git status` :tells us that we need to know about our repo
 
-`git add <FILE>` : adds <FILE> to the staging area
-`git commit`: open a text editor to write commit message
+- `git add <FILE>` : adds <FILE> to the staging area
+- `git commit`: open a text editor to write commit message
 	- `git commit -m "Message"` : writes Message as a commit without a text editor
 - `git log` : shows the log (history) of our commits
 	- `git log --oneline` : shows the shorter oneline commit 
@@ -62,5 +62,9 @@
 	- `git push <WHERE> <WHAT>`
 	- To update a PR, we make changes to the brancg locally and re-`push`
 
- - A merge conflict can happen after a PR is issued
-   
+- A merge conflict can happen after a PR is issued
+- `git fetch`: update your git log without making any changes to your files
+	- `git fetch --prune`: update your log and also remove deleted remote branches
+
+- `git push -f <WHERE> <WHAT> `: force push to the remote <WHERE> the branch <WHAT>
+	- `git push --force-with-lease <WHERE> <WHAT>`: more mindful of collaborators
