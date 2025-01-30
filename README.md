@@ -33,7 +33,7 @@
 	-'git push origin main'
 - 'git pull <WHERE> <WHAT>' : pulls the <WHAT> branch in <WHERE> to our local computer
 
-## Branches
+## BrANcHeS
 
 - 'git branch <NAME>': create branch <NAME> where you are (HEAD)
 - 'git switch <NAME>': move to the breanch <NAME>
