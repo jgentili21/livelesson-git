@@ -74,3 +74,6 @@
 - Second person to push, needs to sync the history
 - Add collaborators in repository settings
 - collaborators will then `git clone <URL>` to get repo on their computer 	
+- Each persons branch changes are independent from one another
+- Feature branches wont show conflicts until one of them is merged first
+- In the settings you can setup branch protection rules to prevent direct changes
